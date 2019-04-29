@@ -1,0 +1,562 @@
+html {
+	min-height:100%;
+}
+
+body {
+font-family: 'Open Sans', sans-serif;
+margin:0;
+font-weight:300;
+min-height:100%;
+}
+
+
+p {
+	padding-bottom: 5px;
+}
+a {
+	text-decoration: none;
+	transition:all .2s;
+
+}
+.header {
+	position:relative;
+	background-size:cover;
+	padding:40px 5% 20px 5%;
+	font-weight:normal;
+	border-bottom: solid 2pt #c39f06;
+	height:30px;
+
+
+}
+
+
+
+
+.button:hover {
+	color:#c39f06;
+	font-weight:normal;
+
+}
+
+
+.taj {
+	font-size: 30pt;
+	font-weight: 300;
+	float:left;
+	vertical-align: bottom;
+	position:relative;
+	bottom:30px;
+}
+
+.taj:hover {
+	font-weight:300;
+}
+ 
+.tajh {
+	display: none;
+}
+
+.home {
+	margin: 5%;
+	vertical-align: text-top;
+	display:inline-block;
+	width:95%;
+	margin:auto;
+	height:95%;
+}
+
+
+.body {
+	width:35%;
+	font-size:10pt;
+	display: inline-block;
+	position:relative;
+	top:0;
+
+}
+
+
+
+.main{
+	width:80%;
+	display:inline-block;
+	margin:5%;
+	margin-top:20px;
+	position:relative;
+
+}
+
+.home .gridtext {
+	margin-top:20px;
+}
+
+h1 {
+	font-size:1em;
+}
+
+.grid {
+	width:60%;
+	display:inline-block;
+	align-content: left;
+}
+
+
+
+.squarecontainer {
+	width:40%;
+	display:inline-block;
+	padding-right:20px;
+	padding-bottom: 20px;
+
+
+}
+
+.square {
+  overflow: hidden;
+  width: 100%;
+  position:relative;
+  display:inline-block;
+  margin:0;
+  padding:0;
+
+}
+
+.caption {
+	font-style:italic;
+	font-size:7pt;
+	display:inline-block;
+
+}
+
+.square img {
+	height:100%;
+	width:100%;
+	margin:0;
+}
+
+.gridtext {
+	width:35%;
+	font-size:10pt;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	padding-bottom:20px;
+}
+
+.fullgrid {
+	width:95%;
+	margin:auto;
+	position:relative;
+	border-bottom: solid 2pt #c39f06;
+	border-top: solid 1pt #c39f06;
+	margin-bottom:20px;
+	margin-top:20px;
+
+
+
+}
+
+.subtitles {
+	color:#c39f06;
+	font-weight: normal;
+	font-size:8pt;
+
+
+}
+
+
+.bottom {
+	height:20px;
+	bottom: 0;
+	position:relative;
+	display:inline-block;
+	border-bottom: solid 1pt #c39f06;
+	border-top: solid 1pt #c39f06;
+	font-size:8pt;
+	width:100%;
+	text-align: right;
+
+	position:relative;
+	left:0;
+	bottom:0;
+	margin-bottom:20px;
+	margin-top:20px;
+
+
+}
+
+
+.int {
+	width:60px;
+	margin-right:5%;
+	overflow:hidden;
+	display:inline-block;
+	white-space: nowrap;
+	float:right;
+	transition:all .5s;
+	position:relative;
+	bottom:4px;
+
+
+}
+
+.int .button {
+	float:none;
+}
+
+.int:hover {
+	width:185px;
+	margin-right:3%;
+}
+
+.inthover {
+	width:185px;
+	margin-right:3%;
+}
+
+.ext {
+	width:60px;
+	margin-right:5%;
+	overflow:hidden;
+	display:inline-block;
+	white-space: nowrap;
+	float:right;
+	transition:all 1s;
+	position:relative;
+	bottom:4px;
+
+}
+
+.ext:hover {
+	width:350px;
+	margin-right:3%;
+}
+
+.exthover {
+	width:350px;
+	margin-right:3%;
+}
+
+.ext .button {
+	float:none;
+}
+
+
+
+
+
+.srcimg {
+	height:200px;
+	width:200px;
+	padding:2%;
+}
+
+.srcimg img {
+	height:100%;
+	width:100%;
+}
+
+.source {
+	width:90%;
+	display:inline-block;
+	padding-right: 5%;
+	padding-left:5%;
+}
+
+
+
+
+
+.footer {
+	position: relative;
+	float:right;
+	bottom:8px;
+	margin-right:25px;
+	text-align: center;
+}
+
+.link {
+	color:#c39f06;
+	text-decoration:none;
+}
+
+	.button {
+		color:#0f1f5a;
+		display:inline-block;
+		margin-right:5%;
+		font-size:10pt;
+		float:right;
+		text-decoration:none;
+		vertical-align: bottom;
+	}
+.thispage {
+	
+	color:#c39f06;
+
+}
+
+
+	.mobile {
+		display:none;
+	}
+
+.taj {	font-size: 30pt;
+	font-weight: 300;
+	float:left;
+	vertical-align: bottom;
+	position:relative;
+}
+
+.sub {
+	font-weight:lighter;
+	font-size:8pt;
+	position: relative;
+	bottom:1.5px;
+
+
+}
+
+
+
+
+@media (max-width:1100px) {
+
+	.gridtext{
+		font-size:9pt;
+
+	}
+
+	.ext:hover:not(.active)  {
+	width:60px;
+	transition:0s;
+	margin-right:5%;
+	}
+
+	.int:hover:not(.active) {
+	width:60px;
+	transition:0s;
+	margin-right:5%;
+	}
+
+	.thispage .int:hover {
+	width:185px;
+	margin-right:3%;
+
+	}
+
+	.index{
+		position:relative;
+	}
+	.footer {
+	margin-right:25px;
+	}
+	.taj {
+		font-size:25px;
+		bottom:14px;
+		margin-right:2%;
+	}
+}
+
+@media (max-width:860px) {
+
+		.exthover {
+	width:60px;
+	margin-right:5%;
+	}
+
+	.inthover {
+		width:60px;
+		transition:0s;
+		margin-right:5%;
+	}
+	.ext:hover  {
+	width:60px;
+	transition:0s;
+	margin-right:5%;
+	}
+
+	.int:hover {
+	width:60px;
+	transition:0s;
+	margin-right:5%;
+	}
+	.grid {
+		width:40%;
+	}
+	.squarecontainer {
+		width:80%;
+		}
+	.gridtext {
+		width:45%;
+	}
+	}
+
+	.home {
+		width:100%;
+		padding-top:20px;
+	}
+
+	.home .grid {
+		width:80%;
+		margin-left:10%;
+		align-content: top center;
+	}
+	.main{
+		margin:0;
+	}
+	.home .gridtext {
+		width:80%;
+		margin:10%;
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+
+	.home .grid img {
+		width:100%;
+		margin-top:10px;
+		margin-bottom:10px;
+
+	}
+
+@media (max-width:500px)    {
+
+ 	html {
+ 		margin:0;
+ 		width:100%;
+ 	}
+ 	body {
+ 		margin:0;
+ 		width:100%;
+ 	}
+
+ 	.mobilecontainer {
+ 		border-bottom: solid 1pt #c39f06;
+ 		width:100%;
+ 	}
+
+	.mobile {
+	position:relative;
+	font-weight:normal;
+	vertical-align: text-bottom;
+	display:inline-block;
+	margin-left:10%;
+	margin-top:10px;
+	margin-bottom:5px;
+	width:80%;
+	margin-right:10%;
+
+	}
+
+	
+
+	.button {
+		font-size:6pt;
+		float:right;
+		margin-right:0px;
+		padding:5px;
+		padding-bottom:0;
+
+
+	}
+
+
+	.tajh {
+	font-size: 8pt;
+	display: inline-block;
+	color:#0f1f5a;
+	font-weight: lighter;
+	}
+
+
+	.header{
+		display:none;
+	}
+	
+	.home {
+		width:100%;
+		padding-top:20px;
+	}
+
+	.home .grid {
+		width:80%;
+		margin-left:10%;
+		align-content: top center;
+	}
+	.main{
+		margin:0;
+	}
+	.home .gridtext {
+		width:80%;
+		margin:10%;
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+	.grid img {
+		width:100%;
+		margin-top:10px;
+		margin-bottom:10px;
+
+	}
+
+	.bottom {
+		height:30px;
+		bottom: 0;
+		position:relative;
+		display:inline-block;
+		border-bottom: solid 1pt #c39f06;
+		border-top: solid 1pt #c39f06;
+		font-size:7pt;
+		width:100%;
+		text-align: center;
+		position:relative;
+		left:0;
+		bottom:0;
+		margin-bottom:20px;
+		margin-top:20px;
+		}
+
+
+	.source .grid {
+		margin-top:20px;
+	}
+	.srcimg {
+		height:75px;
+		width:75px;
+	}
+
+	.grid  {
+		width:30%;
+		margin-left:10%;
+	}
+	.squarecontainer {
+		width:100%;
+	}
+	.caption {
+		font-size:6pt;
+	}
+	.square img {
+		width:100%;
+		margin:0;
+	}
+
+	.gridtext {
+		margin-left:5%;
+		font-size:7pt;
+		width:50%;
+	}
+	.fullgrid {
+		width:95%;
+		margin-right:2.5%;
+		border:none;
+
+	}
+	.subtitles {
+		margin-left:10%;
+	}
+
+
+
+}
+
+
+
